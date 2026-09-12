@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Peaks AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-page: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-surface-elevated: #f1f5f9;
+      --border-subtle: #e2e8f0;
+      --border-medium: #cbd5e1;
+      --text-main: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #64748b;
+      --brand-primary: #0284c7;
+      --nvidia-green: #76b900;
+      --shadow-card: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.03);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      min-height: 100vh;
+      padding: 40px 20px;
+      line-height: 1.65;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: radial-gradient(var(--border-medium) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+    .container { max-width: 860px; width: 100%; position: relative; z-index: 1; }
+    .top-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 28px; }
+    .back-link {
+      color: var(--brand-primary);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: opacity 0.2s;
+    }
+    .back-link:hover { opacity: 0.8; }
+    .nav-links { display: flex; gap: 16px; }
+    .nav-links a { color: var(--text-muted); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
+    .nav-links a:hover, .nav-links a.active { color: var(--brand-primary); font-weight: 600; }
+    .header { margin-bottom: 28px; border-bottom: 1px solid var(--border-subtle); padding-bottom: 20px; }
+    .header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+    .meta-tag { color: var(--text-muted); font-size: 0.9rem; }
+    .card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 36px;
+      box-shadow: var(--shadow-card);
+      margin-bottom: 40px;
+    }
+    h2 { font-size: 1.3rem; color: var(--text-main); margin-top: 28px; margin-bottom: 12px; border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px; font-weight: 700; }
+    h2:first-of-type { margin-top: 0; }
+    h3 { font-size: 1.05rem; color: var(--brand-primary); margin-top: 18px; margin-bottom: 8px; }
+    p { color: var(--text-secondary); font-size: 0.97rem; margin-bottom: 16px; }
+    ul { margin: 12px 0 16px 24px; color: var(--text-secondary); font-size: 0.95rem; }
+    li { margin-bottom: 8px; }
+    strong { color: var(--text-main); }
+    .highlight-box {
+      background: rgba(2, 132, 199, 0.05);
+      border-left: 4px solid var(--brand-primary);
+      padding: 14px 18px;
+      border-radius: 4px;
+      margin-bottom: 24px;
+      font-size: 0.95rem;
+      color: var(--text-main);
+    }
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: auto;
+      padding-top: 20px;
+      border-top: 1px solid var(--border-subtle);
+      width: 100%;
+      max-width: 860px;
+    }
+    footer a { color: var(--text-secondary); text-decoration: none; margin: 0 8px; }
+    footer a:hover { color: var(--brand-primary); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-nav">
+      <a href="index.html" class="back-link">&larr; Back to Peaks AI</a>
+      <div class="nav-links">
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html" class="active">Privacy Policy</a>
+      </div>
+    </div>
+
+    <div class="header">
+      <h1>Privacy Policy</h1>
+      <p class="meta-tag">Last Updated: September 2026 &bull; Peaks AI Systems (peaksai.tech)</p>
+    </div>
+
+    <div class="card">
+      <div class="highlight-box">
+        Your privacy and business communications are protected by design. This Privacy Policy outlines the information Peaks AI collects, how client and contractor data is processed, and your rights under applicable privacy laws.
+      </div>
+
+      <h2>1. Information We Collect</h2>
+      <p>We collect personal and business information necessary to provision autonomous voice agents, process student developer applications, and fulfill trade contractor automation pipelines:</p>
+      <ul>
+        <li><strong>Direct Intake:</strong> Business name, trade vertical, phone number, email address, average ticket size, and missed call metrics.</li>
+        <li><strong>Developer & Sales Talent:</strong> GitHub handles, student developer verification credentials (.edu status), technical competencies, and sprint availability.</li>
+        <li><strong>Billing & Payouts:</strong> Payment transaction metadata processed securely through Stripe and Whop. Sensitive cardholder numbers and CVVs are tokenized and never stored on our servers.</li>
+        <li><strong>Operational Telemetry:</strong> Inbound call timestamps, IVR routing status, call duration, and AI model inference latency via NVIDIA NIM and edge endpoints.</li>
+      </ul>
+
+      <h2>2. How We Use Information</h2>
+      <p>We process collected data strictly for operational fulfillment:</p>
+      <ul>
+        <li>Configuring custom 24/7 AI Voice Dispatchers and CRM webhooks for trade businesses.</li>
+        <li>Dispatching verified student developer teams to execute custom automation deliverables.</li>
+        <li>Calculating, reporting, and executing commission splits and automated contractor payouts.</li>
+        <li>Maintaining system uptime, fraud prevention, and audit logs.</li>
+      </ul>
+
+      <h2>3. Data Sharing & Third Parties</h2>
+      <p>We do not sell or rent data to advertisers. We share information only with authorized infrastructure partners:</p>
+      <ul>
+        <li><strong>Compute & Inference:</strong> NVIDIA NIM DGX Cloud endpoints, Google Cloud (Vertex/Gemini), and Vercel Edge.</li>
+        <li><strong>Telephony & Messaging:</strong> Twilio for SIP trunking and voice audio streaming.</li>
+        <li><strong>Payment Gateways:</strong> Stripe and Whop for secure client invoicing and contractor revenue distributions.</li>
+        <li><strong>Compliance:</strong> When legally mandated by subpoenas or judicial proceedings.</li>
+      </ul>
+
+      <h2>4. Data Retention & Security</h2>
+      <p>We maintain end-to-end TLS 1.3 encryption for all data in transit, strict RBAC permissions, and automated secret rotation. Audio transcripts and call metadata are retained only as required to train client-specific vocabulary or fulfill auditing obligations, and may be purged upon written request.</p>
+
+      <h2>5. Your Rights</h2>
+      <p>You have the right to inspect, export, correct, or request deletion of your account records. To submit a data request, contact our security officer at <strong style="color:var(--brand-primary);">privacy@peaksai.tech</strong>.</p>
+
+      <h2>6. Contact Us</h2>
+      <p>For inquiries regarding this policy or system compliance:<br>
+      <strong>Peaks AI Infrastructure</strong><br>
+      Email: <span style="color:var(--brand-primary);">support@peaksai.tech</span><br>
+      Domain: <span style="color:var(--brand-primary);">peaksai.tech</span></p>
+    </div>
+
+    <footer>
+      &copy; 2026 Peaks AI. All rights reserved. &bull;
+      <a href="terms.html">Terms of Service</a> &bull;
+      <a href="privacy.html">Privacy Policy</a> &bull;
+      <a href="index.html">Platform Home</a>
+    </footer>
+  </div>
+</body>
+</html>
