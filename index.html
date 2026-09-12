@@ -1,149 +1,313 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Peaks AI | Autonomous Agency Intelligence & Multimodal Operations</title>
-  <meta name="description" content="Next-generation autonomous agency operating system combining real-time multimodal AI phone agents, trade business automation, and zero-overhead developer fulfillment.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Peaks AI | Autonomous Agency Intelligence &amp; NVIDIA NIM Operations</title>
+  <meta name="description" content="Production-grade autonomous agency operations powered by NVIDIA NIM endpoints, 24/7 conversational voice agents, and $0-overhead student developer fulfillment.">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%2338bdf8%22/></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230284c7%22/><text x=%2250%22 y=%2265%22 font-size=%2250%22 font-weight=%22bold%22 text-anchor=%22middle%22 fill=%22white%22>P</text></svg>">
 </head>
 <body>
-  <!-- Canvas for Ambient Cosmic Neural Grid -->
-  <canvas id="bg-canvas"></canvas>
-  <div class="cyber-grid"></div>
+  <!-- Architectural Micro-Dot Matrix & Atmosphere -->
+  <div class="bg-grid-pattern"></div>
+  <div class="bg-glow-layer"></div>
 
-  <!-- Navigation Bar -->
+  <!-- Navigation -->
   <nav class="navbar">
-    <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-      <a href="#" class="logo-wrap">
-        <div class="logo-orb"></div>
-        <span class="logo-text">PEAKS<span style="color: var(--cyan-core);">AI</span></span>
-        <span class="logo-badge mono">ASTRA 2.0</span>
-      </a>
-
-      <div class="nav-links">
-        <a href="#console" class="nav-link">Multimodal HUD</a>
-        <a href="#portal" class="nav-link">Application Hub</a>
-        <a href="#telemetry" class="nav-link">Telemetry</a>
-        <a href="tel:7194123121" class="btn-glow">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-          (719) 412-3121
+    <div class="container">
+      <div class="nav-inner">
+        <!-- Logo -->
+        <a href="#" class="brand-wrap">
+          <div class="brand-symbol">P</div>
+          <span class="brand-name">PEAKS<span>AI</span></span>
+          <span class="brand-badge mono">NVIDIA NIM</span>
         </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="desktop-links">
+          <a href="#features" class="nav-link">Pillars</a>
+          <a href="#calculator" class="nav-link">ROI Calculator</a>
+          <a href="#nvidia" class="nav-link">NVIDIA Engine</a>
+          <a href="#portal" class="nav-link">Applications</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+          <a href="tel:7194123121" class="btn-primary" style="padding: 8px 16px; font-size: 0.88rem;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            (719) 412-3121
+          </a>
+        </div>
+
+        <!-- Controls -->
+        <div class="nav-actions">
+          <button id="theme-toggle" class="theme-toggle-btn" title="Toggle Theme" aria-label="Toggle Theme">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+          <button id="hamburger-toggle" class="hamburger-btn" aria-label="Open Navigation Menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          </button>
+        </div>
       </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-nav-panel" class="mobile-nav-panel">
+      <a href="#features" class="nav-link">Pillars</a>
+      <a href="#calculator" class="nav-link">ROI Calculator</a>
+      <a href="#nvidia" class="nav-link">NVIDIA Engine</a>
+      <a href="#portal" class="nav-link">Applications</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a href="tel:7194123121" class="btn-primary" style="justify-content: center; width: 100%;">
+        Call Live Line: (719) 412-3121
+      </a>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <header class="hero">
+  <header class="hero-section">
     <div class="container">
-      <div class="status-pill mono">
-        <span class="live-dot"></span>
-        <span>EDGE CLUSTER ACTIVE // 13.8ms DUPLEX LATENCY // US-CENTRAL</span>
+      <div class="status-tag mono">
+        <span class="live-beacon"></span>
+        <span>EDGE CLUSTERS ONLINE // NVIDIA NIM H100 ACCELERATED // &lt;14ms LATENCY</span>
       </div>
 
-      <h1 class="hero-title">
+      <h1 class="hero-heading">
         Autonomous Agency Operations.<br>
-        Engineered with <span>Astra Intelligence</span>.
+        Engineered with <span class="gradient-text">Precision Intelligence</span>.
       </h1>
 
-      <p class="hero-subtitle">
-        The complete fullstack operating system uniting 24/7 conversational voice agents, hyper-targeted trade business lead acquisition, and $0-infrastructure developer fulfillment.
+      <p class="hero-desc">
+        Deploy 24/7 conversational voice agents, hyper-localized trade lead acquisition, and $0-infrastructure developer fulfillment. Production-grade architecture with zero fluff.
       </p>
 
-      <div class="hero-cta-group">
-        <a href="#console" class="btn-glow" style="padding: 14px 28px; font-size: 1rem;">
-          Launch Multimodal HUD
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+      <div class="hero-buttons">
+        <a href="#calculator" class="btn-primary">
+          Calculate Recoverable Revenue
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
         </a>
-        <a href="#portal" class="btn-secondary">
-          Join Developer / Partner Bench
+        <a href="#nvidia" class="btn-secondary">
+          Run NVIDIA NIM Scoper
         </a>
       </div>
     </div>
   </header>
 
-  <!-- Multimodal Astra Console -->
-  <section id="console" class="console-section">
+  <!-- Metrics Ribbon -->
+  <section id="metrics" class="stats-ribbon">
     <div class="container">
-      <div class="astra-hud-card">
-        <div class="hud-header">
-          <div class="hud-title mono">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-            ASTRA MULTIMODAL TELEMETRY & SCOPER
+      <div class="stats-grid">
+        <div class="stat-box">
+          <div class="stat-figure mono" style="color: var(--brand-primary);">2,000+</div>
+          <div class="stat-title">Verified Trade Prospects</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-figure mono" style="color: var(--live-emerald);">$0</div>
+          <div class="stat-title">Dev Hosting Overhead</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-figure mono" style="color: var(--accent-blue);">&lt;14ms</div>
+          <div class="stat-title">Real-Time Voice Latency</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-figure mono" style="color: var(--warning-amber);">100%</div>
+          <div class="stat-title">Stripe Split Transparency</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bento Grid Section -->
+  <section id="features" class="bento-section">
+    <div class="container">
+      <span class="section-label mono">// PRODUCTION PILLARS</span>
+      <h2 class="section-headline">Engineered for Revenue Velocity</h2>
+      <p class="section-subtext">
+        Every component is built on live webhooks, real cloud infrastructure, and verifiable deal flow.
+      </p>
+
+      <div class="bento-grid">
+        <!-- Bento 1: AI Phone Agent (Span 2) -->
+        <div class="bento-card span-2">
+          <div class="bento-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
           </div>
-          <div class="hud-dots">
-            <div class="hud-dot"></div>
-            <div class="hud-dot"></div>
-            <div class="hud-dot" style="background: var(--cyan-core);"></div>
+          <h3 class="bento-title">24/7 Conversational AI Voice Receptionist</h3>
+          <p class="bento-desc">
+            Trade businesses lose 27% of their highest-ticket emergency jobs to voicemail. Our Twilio + Gemini duplex voice pipeline answers every inbound call in under 1 second, qualifies homeowner budgets, and collects Stripe deposits immediately.
+          </p>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <span class="bento-pill mono">Twilio Live Trunking</span>
+            <span class="bento-pill mono">Sub-15ms TTS</span>
+            <span class="bento-pill mono">Zero Dropped Leads</span>
           </div>
         </div>
 
-        <div class="hud-grid">
-          <!-- Left: Real-Time Audio Stream -->
-          <div class="hud-left">
-            <div>
-              <div class="waveform-wrap">
-                <div class="waveform-header mono">
-                  <span>VOICE DUPLEX STREAM (24kHz PCM)</span>
-                  <span style="color: var(--emerald-live);">STABLE</span>
-                </div>
-                <canvas id="waveform-canvas"></canvas>
-                <div class="voice-status-bar mono">
-                  <span style="color: var(--text-muted);">TTS Model: Gemini Flash Voice</span>
-                  <span style="color: var(--cyan-core);">Buffer: 0.12s</span>
-                </div>
-              </div>
-
-              <div style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">
-                <strong>Full Duplex Conversational AI:</strong> Replaces traditional voicemail and receptionist bottlenecks. Handles pricing quotes, emergency dispatches, and Stripe down-payments in real time.
-              </div>
-            </div>
-
-            <!-- Scoper Control -->
-            <div class="sim-controls">
-              <select id="sim-trade-select" class="sim-select mono">
-                <option value="residential_plumbing">Plumbing: Emergency Burst Pipe Rescue</option>
-                <option value="epoxy_flooring">Epoxy Flooring: Luxury Garage Quoting</option>
-                <option value="pressure_washing">Pressure Washing: Lanai & Paver Wash</option>
-                <option value="tree_service">Tree Service: Storm Damage Emergency</option>
-              </select>
-              <button id="btn-run-sim" class="btn-sim mono">SCOPE SYSTEM</button>
-            </div>
+        <!-- Bento 2: $0 Student Developer Stack -->
+        <div class="bento-card">
+          <div class="bento-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
           </div>
+          <h3 class="bento-title">$0 Infrastructure Stack</h3>
+          <p class="bento-desc">
+            Fullstack production apps deployed with 100% margin retention via GitHub Student Developer Pack (free Vercel edge, Supabase Postgres, Copilot).
+          </p>
+          <span class="bento-pill mono">GitHub Pack Certified</span>
+        </div>
 
-          <!-- Right: Telemetry Terminal -->
-          <div class="hud-right">
-            <div class="terminal-header mono">
-              <span>REAL-TIME SYSTEM AUDIT LOG</span>
-              <span style="color: var(--cyan-core);">NODE: #PK-77</span>
-            </div>
-            <div id="terminal-stream" class="terminal-body"></div>
+        <!-- Bento 3: Trade Lead Acquisition -->
+        <div class="bento-card">
+          <div class="bento-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24M14.83 14.83l4.24 4.24M14.83 9.17l4.24-4.24M4.93 19.07l4.24-4.24"/></svg>
+          </div>
+          <h3 class="bento-title">Trade Lead Ingestion Engine</h3>
+          <p class="bento-desc">
+            2,000 verified plumbing, epoxy flooring, pressure washing, and tree contractors enriched with custom localized hooks and Brevo outreach.
+          </p>
+          <span class="bento-pill mono">Miami &bull; Tampa &bull; LA &bull; Chicago</span>
+        </div>
+
+        <!-- Bento 4: Automated Stripe Splits (Span 2) -->
+        <div class="bento-card span-2">
+          <div class="bento-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+          </div>
+          <h3 class="bento-title">Automated Stripe Split &amp; Commission Ledger</h3>
+          <p class="bento-desc">
+            No accounting delays. When a client signs a contract, funds are programmatically split via Stripe Connect: Appointment Setters receive 10%, Closers receive 20%, Developers receive sprint fulfillment payouts ($750–$2,500), and the agency retains healthy margins.
+          </p>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <span class="bento-pill mono">Stripe Webhook Listener</span>
+            <span class="bento-pill mono">Instant Payouts</span>
+            <span class="bento-pill mono">Audit Verified</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Telemetry Ribbon -->
-  <section id="telemetry" class="telemetry-ribbon">
+  <!-- Interactive Lost Revenue & ROI Calculator -->
+  <section id="calculator" class="calculator-section">
     <div class="container">
-      <div class="stats-grid">
-        <div class="stat-card">
-          <div class="stat-value mono" style="color: var(--cyan-core);">2,000+</div>
-          <div class="stat-label">Verified Trade Prospects</div>
+      <span class="section-label mono">// REVENUE RECOVERY ESTIMATOR</span>
+      <h2 class="section-headline">How Much Are Missed Calls Costing You?</h2>
+      <p class="section-subtext">
+        Most trade businesses miss 3 to 10 customer calls every week while on job sites. Estimate your monthly recoverable revenue below.
+      </p>
+
+      <div class="calc-card">
+        <!-- Sliders -->
+        <div>
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>Average Job Ticket Value</span>
+              <span id="calc-ticket-val" class="mono" style="color: var(--brand-primary); font-weight: 700;">$2,500</span>
+            </div>
+            <input type="range" id="calc-ticket" class="slider-input" min="500" max="8000" step="250" value="2500">
+            <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">
+              <span>$500</span>
+              <span>$4,000</span>
+              <span>$8,000+</span>
+            </div>
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>Estimated Missed Calls per Week</span>
+              <span id="calc-calls-val" class="mono" style="color: var(--brand-primary); font-weight: 700;">6 calls/wk</span>
+            </div>
+            <input type="range" id="calc-calls" class="slider-input" min="1" max="25" step="1" value="6">
+            <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">
+              <span>1 call</span>
+              <span>12 calls</span>
+              <span>25 calls</span>
+            </div>
+          </div>
+
+          <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+            * Based on standard trade conversion benchmarks: 35% closing rate when answered in real-time vs &lt;4% when sent to voicemail.
+          </p>
         </div>
-        <div class="stat-card">
-          <div class="stat-value mono" style="color: var(--emerald-live);">$0</div>
-          <div class="stat-label">Dev Infrastructure Overhead</div>
+
+        <!-- Result Display -->
+        <div class="calc-result-box">
+          <div class="calc-result-label mono">Estimated Recoverable Monthly Revenue</div>
+          <div id="calc-revenue-result" class="calc-result-value mono">$22,733</div>
+          <p class="calc-result-subtext">
+            Recovered directly into your bank account through automated 24/7 AI answering and instant deposit capture.
+          </p>
+          <a href="#portal" class="btn-primary" style="margin-top: 18px; width: 100%; justify-content: center;">
+            Capture This Revenue &rarr;
+          </a>
         </div>
-        <div class="stat-card">
-          <div class="stat-value mono" style="color: var(--violet-glow);">&lt;14ms</div>
-          <div class="stat-label">Real-Time Voice Latency</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NVIDIA NIM Inference Engine & Architecture Scoper -->
+  <section id="nvidia" class="nvidia-section">
+    <div class="container">
+      <span class="section-label mono">// NVIDIA NIM ACCELERATED BACKBONE</span>
+      <h2 class="section-headline">Live Architecture &amp; Solution Scoper</h2>
+      <p class="section-subtext">
+        Test our live NVIDIA NIM endpoint directly. Query real-time architecture blueprints for trade businesses or custom automation workflows.
+      </p>
+
+      <div class="nvidia-card">
+        <div class="nvidia-header">
+          <div class="nvidia-badge-group">
+            <span class="nvidia-chip mono">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+              NVIDIA TENSOR CORE ACTIVE
+            </span>
+            <span class="nvidia-endpoint-text mono">integrate.api.nvidia.com</span>
+          </div>
+          <span class="mono" style="font-size: 0.78rem; color: var(--text-muted);">MODEL: deepseek-v4-flash-0731</span>
         </div>
-        <div class="stat-card">
-          <div class="stat-value mono" style="color: #f59e0b;">100%</div>
-          <div class="stat-label">Deal Commission Transparency</div>
+
+        <div class="nvidia-body">
+          <!-- Left Controls -->
+          <div class="nvidia-left">
+            <div>
+              <p style="font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 10px;">
+                Select a Trade Scenario or Type Custom Requirements:
+              </p>
+
+              <div class="preset-btn-group">
+                <button type="button" class="preset-btn" data-prompt="Emergency Burst Pipe Rescue for Residential Plumbing in Miami">
+                  Plumbing Emergency
+                </button>
+                <button type="button" class="preset-btn" data-prompt="Luxury Garage Polyaspartic &amp; Epoxy Coating Quotes in Tampa">
+                  Epoxy Flooring
+                </button>
+                <button type="button" class="preset-btn" data-prompt="Commercial Fleet &amp; Paver Pressure Washing Intake">
+                  Pressure Wash
+                </button>
+                <button type="button" class="preset-btn" data-prompt="Hazardous Tree Removal &amp; Crane Quoting in Los Angeles">
+                  Tree Removal
+                </button>
+              </div>
+
+              <textarea id="nvidia-prompt-input" class="prompt-textarea" placeholder="Describe the business or workflow you want to automate..."></textarea>
+            </div>
+
+            <button id="btn-run-nvidia" class="exec-btn" type="button">
+              Execute NVIDIA NIM Inference &rarr;
+            </button>
+          </div>
+
+          <!-- Right Terminal Output -->
+          <div class="nvidia-right">
+            <div id="nvidia-output-console" class="output-console mono">
+<span style="color: #76b900;">[READY] NVIDIA DGX Cloud Endpoint Standby</span>
+<span style="color: #64748b;">// Target: https://integrate.api.nvidia.com/v1/chat/completions</span>
+--------------------------------------------------
+Click an automated preset or enter your business prompt to execute real-time inference.
+            </div>
+
+            <div class="telemetry-meta mono">
+              <span>Latency: <strong id="meta-latency" style="color: var(--brand-primary);">&mdash;</strong></span>
+              <span>Model: <strong id="meta-model" style="color: var(--text-main);">NVIDIA NIM</strong></span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -152,180 +316,251 @@
   <!-- 4-Track Application Hub -->
   <section id="portal" class="portal-section">
     <div class="container">
-      <div class="section-header">
-        <span class="section-tag mono">// INTEGRATED APPLICATION HUB</span>
-        <h2 class="section-title">Join the Network. Build the Future.</h2>
-        <p class="section-desc">
-          Whether you are a developer leveraging the GitHub Student Pack, a closer seeking warm deals, or a trade business demanding automation, choose your track below.
-        </p>
+      <span class="section-label mono">// INTEGRATED OPERATIONAL HUB</span>
+      <h2 class="section-headline">Select Your Onboarding Track</h2>
+      <p class="section-subtext">
+        Connect to our fulfillment bench, join the sales distribution engine, or deploy autonomous AI into your trade business.
+      </p>
+
+      <!-- Tab Navigation -->
+      <div class="tab-nav-bar">
+        <button class="portal-tab active" data-tab="dev">
+          <span class="tab-title-text">1. Developers</span>
+          <span class="tab-desc-text">$0 Stack &amp; Commission</span>
+        </button>
+        <button class="portal-tab" data-tab="sales">
+          <span class="tab-title-text">2. Sales Team</span>
+          <span class="tab-desc-text">Setters &amp; Closers</span>
+        </button>
+        <button class="portal-tab" data-tab="biz">
+          <span class="tab-title-text">3. Businesses</span>
+          <span class="tab-desc-text">AI Phone &amp; Growth</span>
+        </button>
+        <button class="portal-tab" data-tab="agency">
+          <span class="tab-title-text">4. Agency Partners</span>
+          <span class="tab-desc-text">Overflow &amp; Talent</span>
+        </button>
       </div>
 
-      <!-- Tab Buttons -->
-      <div class="portal-tabs-nav">
-        <button class="portal-tab-btn active" data-tab="dev">
-          <strong>1. Developers</strong>
-          <span class="tab-sub mono">Commission & $0 Stack</span>
-        </button>
-        <button class="portal-tab-btn" data-tab="sales">
-          <strong>2. Sales Team</strong>
-          <span class="tab-sub mono">Setters & Closers</span>
-        </button>
-        <button class="portal-tab-btn" data-tab="biz">
-          <strong>3. Businesses</strong>
-          <span class="tab-sub mono">AI Voice & Growth</span>
-        </button>
-        <button class="portal-tab-btn" data-tab="agency">
-          <strong>4. Agency Partners</strong>
-          <span class="tab-sub mono">Overflow & Talent</span>
-        </button>
-      </div>
-
-      <!-- Card Container -->
-      <div class="portal-card">
+      <!-- Tab Cards -->
+      <div class="tab-content-card">
         <!-- TRACK 1: DEVELOPERS -->
-        <div id="panel-dev" class="tab-panel active">
-          <h3 style="font-size: 1.4rem; margin-bottom: 8px;">Technical Fulfillment Track</h3>
-          <p style="color: var(--text-muted); margin-bottom: 24px; font-size: 0.95rem;">
-            Build real client applications scoped by our sales team. 100% commission/deal-split ($750–$2,500+ per sprint). Leverage GitHub Student Pack for $0 cloud hosting.
+        <div id="track-dev" class="track-panel active">
+          <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 6px;">Technical Fulfillment Track</h3>
+          <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 24px;">
+            Deliver client projects closed by our sales team. Earn $750–$2,500+ per work order. Leverage your GitHub Student Developer Pack for $0 hosting overhead.
           </p>
+
           <form id="form-dev">
-            <div class="form-grid">
-              <div class="form-group">
-                <label>Full Legal Name *</label>
-                <input type="text" name="name" required placeholder="Alex Rivera">
+            <div class="form-row-2">
+              <div class="form-item">
+                <label class="form-label">Full Name *</label>
+                <input type="text" name="name" class="form-input" required placeholder="Alex Rivera">
               </div>
-              <div class="form-group">
-                <label>Email Address *</label>
-                <input type="email" name="email" required placeholder="alex@university.edu">
-              </div>
-              <div class="form-group">
-                <label>GitHub Profile URL *</label>
-                <input type="text" name="github_url" required placeholder="https://github.com/username">
-              </div>
-              <div class="form-group">
-                <label>Student Developer Pack Status *</label>
-                <select name="student_pack" required>
-                  <option value="active">Yes - Active GitHub Student Pack (Free Vercel/Supabase)</option>
-                  <option value="edu_email">Yes - Active .edu Email (Ready to claim)</option>
-                  <option value="non_student">Independent Developer / Self-Hosted</option>
-                </select>
-              </div>
-              <div class="form-group full-width">
-                <label>Core Technical Stack *</label>
-                <input type="text" name="tech_stack" required placeholder="e.g. Next.js, FastAPI, Python, Tailwind, PostgreSQL, Twilio">
+              <div class="form-item">
+                <label class="form-label">Email Address *</label>
+                <input type="email" name="email" class="form-input" required placeholder="alex@university.edu">
               </div>
             </div>
-            <button type="submit" class="submit-btn">Submit Developer Application</button>
-            <div class="alert-box"></div>
+
+            <div class="form-row-2">
+              <div class="form-item">
+                <label class="form-label">GitHub Profile URL *</label>
+                <input type="url" name="github_url" class="form-input" required placeholder="https://github.com/username">
+              </div>
+              <div class="form-item">
+                <label class="form-label">Student Developer Pack Status *</label>
+                <select name="student_pack" class="form-select" required>
+                  <option value="active">Active GitHub Student Pack (Free Vercel/Supabase)</option>
+                  <option value="edu_email">Have .edu Email (Ready to claim)</option>
+                  <option value="independent">Independent Developer / Self-Hosted</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-item">
+              <label class="form-label">Primary Tech Stack *</label>
+              <input type="text" name="tech_stack" class="form-input" required placeholder="Next.js, Python, Tailwind, PostgreSQL, Twilio">
+            </div>
+
+            <button type="submit" class="form-submit-btn">Submit Developer Application</button>
+            <div class="feedback-banner"></div>
           </form>
         </div>
 
         <!-- TRACK 2: SALES -->
-        <div id="panel-sales" class="tab-panel">
-          <h3 style="font-size: 1.4rem; margin-bottom: 8px;">Sales & Deal Flow Track</h3>
-          <p style="color: var(--text-muted); margin-bottom: 24px; font-size: 0.95rem;">
-            Set warm demos or close ready-to-buy trade businesses. High commissions paid automatically via Stripe on signed contracts.
+        <div id="track-sales" class="track-panel">
+          <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 6px;">Sales &amp; Distribution Track</h3>
+          <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 24px;">
+            Set warm appointments or close ready-to-buy trade business owners. Commissions paid automatically via Stripe on signed contracts.
           </p>
+
           <form id="form-sales">
-            <div class="form-grid">
-              <div class="form-group">
-                <label>Full Name *</label>
-                <input type="text" name="name" required placeholder="Marcus Vance">
+            <div class="form-row-2">
+              <div class="form-item">
+                <label class="form-label">Full Name *</label>
+                <input type="text" name="name" class="form-input" required placeholder="Marcus Vance">
               </div>
-              <div class="form-group">
-                <label>Email Address *</label>
-                <input type="email" name="email" required placeholder="marcus@gmail.com">
-              </div>
-              <div class="form-group">
-                <label>Target Role *</label>
-                <select name="sales_role" required>
-                  <option value="setter">Appointment Setter (Cold/Warm Outreach, DMs, Calls)</option>
-                  <option value="closer">Account Executive / Closer (Zoom Demos, Contract Closing)</option>
-                  <option value="hybrid">Full-Cycle Setter/Closer</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Phone Number *</label>
-                <input type="text" name="phone" required placeholder="(555) 000-0000">
+              <div class="form-item">
+                <label class="form-label">Email Address *</label>
+                <input type="email" name="email" class="form-input" required placeholder="marcus@gmail.com">
               </div>
             </div>
-            <button type="submit" class="submit-btn">Submit Sales Application</button>
-            <div class="alert-box"></div>
+
+            <div class="form-row-2">
+              <div class="form-item">
+                <label class="form-label">Target Role *</label>
+                <select name="role" class="form-select" required>
+                  <option value="setter">Appointment Setter (Cold/Warm Inbound, DMs)</option>
+                  <option value="closer">Account Executive / Closer (Zoom Demos)</option>
+                  <option value="full_cycle">Full-Cycle Setter &amp; Closer</option>
+                </select>
+              </div>
+              <div class="form-item">
+                <label class="form-label">Phone Number *</label>
+                <input type="tel" name="phone" class="form-input" required placeholder="(555) 000-0000">
+              </div>
+            </div>
+
+            <button type="submit" class="form-submit-btn">Submit Sales Application</button>
+            <div class="feedback-banner"></div>
           </form>
         </div>
 
         <!-- TRACK 3: BUSINESSES -->
-        <div id="panel-biz" class="tab-panel">
-          <h3 style="font-size: 1.4rem; margin-bottom: 8px;">Business Automation & AI Phone Track</h3>
-          <p style="color: var(--text-muted); margin-bottom: 24px; font-size: 0.95rem;">
-            Stop losing $5,000+ jobs to missed calls. Get an autonomous AI voice receptionist that books jobs and collects deposits 24/7.
+        <div id="track-biz" class="track-panel">
+          <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 6px;">Trade Business AI Phone &amp; Automation Track</h3>
+          <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 24px;">
+            Eliminate missed-call revenue loss. Get an autonomous AI voice receptionist that books jobs and captures deposits 24/7.
           </p>
+
           <form id="form-biz">
-            <div class="form-grid">
-              <div class="form-group">
-                <label>Company / Trade Name *</label>
-                <input type="text" name="company_name" required placeholder="Apex Plumbing & Drain LLC">
+            <div class="form-row-2">
+              <div class="form-item">
+                <label class="form-label">Business / Trade Name *</label>
+                <input type="text" name="company" class="form-input" required placeholder="Apex Plumbing &amp; Drain LLC">
               </div>
-              <div class="form-group">
-                <label>Contact Person & Title *</label>
-                <input type="text" name="contact_name" required placeholder="John Smith, Owner">
-              </div>
-              <div class="form-group">
-                <label>Trade Industry *</label>
-                <select name="trade_industry" required>
-                  <option value="plumbing">Residential / Commercial Plumbing</option>
-                  <option value="epoxy">Epoxy Flooring & Surface Coatings</option>
-                  <option value="pressure_washing">Pressure Washing & Exterior Cleaning</option>
-                  <option value="tree_service">Tree Care & Removal</option>
-                  <option value="other">Other Trade / Home Service</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Business Phone *</label>
-                <input type="text" name="phone" required placeholder="(719) 000-0000">
+              <div class="form-item">
+                <label class="form-label">Owner / Contact Name *</label>
+                <input type="text" name="contact" class="form-input" required placeholder="John Smith">
               </div>
             </div>
-            <button type="submit" class="submit-btn">Request Custom AI Architecture Demo</button>
-            <div class="alert-box"></div>
+
+            <div class="form-row-2">
+              <div class="form-item">
+                <label class="form-label">Trade Niche *</label>
+                <select name="trade" class="form-select" required>
+                  <option value="plumbing">Residential / Commercial Plumbing</option>
+                  <option value="epoxy">Epoxy &amp; Polyaspartic Flooring</option>
+                  <option value="pressure_wash">Pressure Washing &amp; Exterior Cleaning</option>
+                  <option value="tree_service">Tree Care &amp; Removal</option>
+                  <option value="other">Other Home Service</option>
+                </select>
+              </div>
+              <div class="form-item">
+                <label class="form-label">Business Phone Number *</label>
+                <input type="tel" name="phone" class="form-input" required placeholder="(719) 000-0000">
+              </div>
+            </div>
+
+            <button type="submit" class="form-submit-btn">Request Custom AI System Architecture</button>
+            <div class="feedback-banner"></div>
           </form>
         </div>
 
         <!-- TRACK 4: AGENCY PARTNERS -->
-        <div id="panel-agency" class="tab-panel">
-          <h3 style="font-size: 1.4rem; margin-bottom: 8px;">B2B Agency Talent Arbitrage Track</h3>
-          <p style="color: var(--text-muted); margin-bottom: 24px; font-size: 0.95rem;">
-            Access pre-vetted AI engineers and developers on demand. Models: One-time Placement Bounty ($1,500–$2,500), 10% Deal Rev-Share, or Bench-as-a-Service ($38/hr).
+        <div id="track-agency" class="track-panel">
+          <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 6px;">B2B Agency Talent Arbitrage Track</h3>
+          <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 24px;">
+            Scale your agency without hiring full-time developers. Access pre-vetted AI engineers under Bench-as-a-Service ($38/hr) or Placement Bounties ($1,500–$2,500).
           </p>
+
           <form id="form-agency">
-            <div class="form-grid">
-              <div class="form-group">
-                <label>Agency Name *</label>
-                <input type="text" name="agency_name" required placeholder="Apex Automation Agency">
+            <div class="form-row-2">
+              <div class="form-item">
+                <label class="form-label">Agency Name *</label>
+                <input type="text" name="agency_name" class="form-input" required placeholder="Apex Automation">
               </div>
-              <div class="form-group">
-                <label>Agency Owner / Lead Email *</label>
-                <input type="email" name="email" required placeholder="founder@agency.io">
+              <div class="form-item">
+                <label class="form-label">Founder / Lead Email *</label>
+                <input type="email" name="email" class="form-input" required placeholder="founder@agency.io">
               </div>
-              <div class="form-group">
-                <label>Partnership Model *</label>
-                <select name="partnership_model" required>
-                  <option value="bench_as_a_service">Bench as a Service ($38/hr dedicated talent)</option>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-item">
+                <label class="form-label">Partnership Structure *</label>
+                <select name="model" class="form-select" required>
+                  <option value="baas">Bench as a Service ($38/hr dedicated talent)</option>
                   <option value="bounty">Placement Bounty ($1,500–$2,500 one-time)</option>
                   <option value="rev_share">Deal Rev-Share Override (10% ongoing)</option>
                 </select>
               </div>
-              <div class="form-group">
-                <label>Current Monthly Deal Volume *</label>
-                <select name="monthly_deals" required>
+              <div class="form-item">
+                <label class="form-label">Monthly Deal Volume *</label>
+                <select name="volume" class="form-select" required>
                   <option value="1_3">1 to 3 deals / month</option>
                   <option value="4_10">4 to 10 deals / month</option>
                   <option value="10_plus">10+ deals / month</option>
                 </select>
               </div>
             </div>
-            <button type="submit" class="submit-btn">Request Bench Access</button>
-            <div class="alert-box"></div>
+
+            <button type="submit" class="form-submit-btn">Request Bench Access</button>
+            <div class="feedback-banner"></div>
           </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive FAQ Accordion -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 36px;">
+        <span class="section-label mono">// FREQUENTLY ASKED QUESTIONS</span>
+        <h2 class="section-headline">Clear Answers. Zero Smoke.</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question-btn" type="button">
+            <span>How does the $0 developer hosting stack actually work?</span>
+            <span class="faq-arrow">&darr;</span>
+          </button>
+          <div class="faq-answer">
+            Our developers leverage the GitHub Student Developer Pack, which provides free tiers on Vercel Edge Hosting, Supabase PostgreSQL, GitHub Copilot, and custom domain credits. This allows client frontends and databases to run at zero monthly overhead while retaining 100% margin on contracts.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question-btn" type="button">
+            <span>Can a business keep their existing phone number?</span>
+            <span class="faq-arrow">&darr;</span>
+          </button>
+          <div class="faq-answer">
+            Yes. We set up automated conditional call forwarding via Twilio. If your phone rings for more than 10 seconds or you are on another line, the call seamlessly transfers to your Peaks AI agent with zero disruption to your carrier or existing number.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question-btn" type="button">
+            <span>How are deal commissions distributed to setters and closers?</span>
+            <span class="faq-arrow">&darr;</span>
+          </button>
+          <div class="faq-answer">
+            All customer invoices are processed through Stripe Checkout. When payment clears, our automated webhook engine executes programmatic payout splits via Stripe Connect: Setters receive their 10% origination fee, Closers receive 20%, and fulfillment developers receive their milestone payout automatically.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question-btn" type="button">
+            <span>What models power the real-time AI phone voice?</span>
+            <span class="faq-arrow">&darr;</span>
+          </button>
+          <div class="faq-answer">
+            We integrate NVIDIA NIM accelerated LLM microservices paired with Google Gemini Flash voice synthesis and Twilio Media Streams, achieving end-to-end conversational latencies under 15ms with full interruptibility.
+          </div>
         </div>
       </div>
     </div>
@@ -334,14 +569,25 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-links">
-        <a href="#console" class="footer-link">Multimodal HUD</a>
-        <a href="#portal" class="footer-link">Application Tracks</a>
-        <a href="tel:7194123121" class="footer-link">Direct Line: (719) 412-3121</a>
-        <a href="mailto:cj.the.dj3569@gmail.com" class="footer-link">Contact</a>
+      <div class="footer-row">
+        <div class="brand-wrap">
+          <div class="brand-symbol" style="width: 28px; height: 28px; font-size: 0.9rem;">P</div>
+          <span class="brand-name" style="font-size: 1.1rem;">PEAKS<span>AI</span></span>
+        </div>
+
+        <div class="footer-nav">
+          <a href="#features">Pillars</a>
+          <a href="#calculator">Calculator</a>
+          <a href="#nvidia">NVIDIA Engine</a>
+          <a href="#portal">Tracks</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="tel:7194123121">Direct: (719) 412-3121</a>
+        </div>
       </div>
-      <p style="color: var(--text-dim); font-size: 0.82rem;">
-        &copy; 2026 Peaks AI &middot; Powered by Astra Multimodal Architecture &middot; Hosted on Edge at <span class="mono" style="color: var(--cyan-core);">peaksai.tech</span>
+
+      <p style="font-size: 0.8rem; color: var(--text-muted); text-align: center;">
+        &copy; 2026 Peaks AI &middot; Accelerated by NVIDIA NIM on Edge &middot; Domain: <span class="mono" style="color: var(--brand-primary);">peaksai.tech</span>
       </p>
     </div>
   </footer>
