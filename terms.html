@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service | Peaks AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-page: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-surface-elevated: #f1f5f9;
+      --border-subtle: #e2e8f0;
+      --border-medium: #cbd5e1;
+      --text-main: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #64748b;
+      --brand-primary: #0284c7;
+      --nvidia-green: #76b900;
+      --shadow-card: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.03);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      min-height: 100vh;
+      padding: 40px 20px;
+      line-height: 1.65;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: radial-gradient(var(--border-medium) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+    .container { max-width: 860px; width: 100%; position: relative; z-index: 1; }
+    .top-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 28px; }
+    .back-link {
+      color: var(--brand-primary);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: opacity 0.2s;
+    }
+    .back-link:hover { opacity: 0.8; }
+    .nav-links { display: flex; gap: 16px; }
+    .nav-links a { color: var(--text-muted); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
+    .nav-links a:hover, .nav-links a.active { color: var(--brand-primary); font-weight: 600; }
+    .header { margin-bottom: 28px; border-bottom: 1px solid var(--border-subtle); padding-bottom: 20px; }
+    .header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+    .meta-tag { color: var(--text-muted); font-size: 0.9rem; }
+    .card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 36px;
+      box-shadow: var(--shadow-card);
+      margin-bottom: 40px;
+    }
+    h2 { font-size: 1.3rem; color: var(--text-main); margin-top: 28px; margin-bottom: 12px; border-bottom: 1px solid var(--border-subtle); padding-bottom: 8px; font-weight: 700; }
+    h2:first-of-type { margin-top: 0; }
+    h3 { font-size: 1.05rem; color: var(--brand-primary); margin-top: 18px; margin-bottom: 8px; }
+    p { color: var(--text-secondary); font-size: 0.97rem; margin-bottom: 16px; }
+    ul { margin: 12px 0 16px 24px; color: var(--text-secondary); font-size: 0.95rem; }
+    li { margin-bottom: 8px; }
+    strong { color: var(--text-main); }
+    .highlight-box {
+      background: rgba(2, 132, 199, 0.05);
+      border-left: 4px solid var(--brand-primary);
+      padding: 14px 18px;
+      border-radius: 4px;
+      margin-bottom: 24px;
+      font-size: 0.95rem;
+      color: var(--text-main);
+    }
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: auto;
+      padding-top: 20px;
+      border-top: 1px solid var(--border-subtle);
+      width: 100%;
+      max-width: 860px;
+    }
+    footer a { color: var(--text-secondary); text-decoration: none; margin: 0 8px; }
+    footer a:hover { color: var(--brand-primary); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-nav">
+      <a href="index.html" class="back-link">&larr; Back to Peaks AI</a>
+      <div class="nav-links">
+        <a href="terms.html" class="active">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+
+    <div class="header">
+      <h1>Terms of Service</h1>
+      <p class="meta-tag">Last Updated: September 2026 &bull; Peaks AI Systems (peaksai.tech)</p>
+    </div>
+
+    <div class="card">
+      <div class="highlight-box">
+        These Terms of Service govern the access and use of Peaks AI voice automation infrastructure, developer contracts, and partnership interfaces operated at peaksai.tech.
+      </div>
+
+      <h2>1. Acceptance of Terms</h2>
+      <p>By registering, submitting project intake forms, applying as a student developer or sales contractor, or utilizing Peaks AI autonomous voice agents, you agree to these Terms. If you are entering into this agreement on behalf of a trade company or agency, you represent that you possess the requisite authority to bind that entity.</p>
+
+      <h2>2. Nature of Services</h2>
+      <p>Peaks AI provides autonomous telephone voice receptionists, dispatch webhooks, custom software automations, and a distributed marketplace linking verified student engineering talent with trade contractors and agency clients.</p>
+
+      <h2>3. Autonomous Agent Operations & Performance Guarantees</h2>
+      <p>While Peaks AI agents are powered by frontier neural networks and NVIDIA NIM inference acceleration:</p>
+      <ul>
+        <li>Voice agents operate based on client-provided knowledge bases, operating hours, and dispatch guidelines.</li>
+        <li>Clients retain full ownership of customer relationships and are responsible for reviewing automated calendar bookings and CRM records.</li>
+        <li>Peaks AI offers a performance-backed setup warranty: if an agent fails to capture qualifying calls as specified during onboarding, corrective sprints are provided at no additional charge.</li>
+      </ul>
+
+      <h2>4. Contractor & Student Developer Terms</h2>
+      <p>Developers and sales representatives participating in the Peaks AI network acknowledge:</p>
+      <ul>
+        <li>Contractors operate as independent entities.</li>
+        <li>Automated revenue splits and milestone payouts are distributed via Stripe or Whop following client work order acceptance.</li>
+        <li>Contractors agree to maintain the confidentiality of trade client databases and proprietary code bases.</li>
+      </ul>
+
+      <h2>5. Intellectual Property & Deliverables</h2>
+      <p>Upon full milestone payment, clients receive a perpetual, royalty-free license or full assignment to custom workflows, scripts, and integration repositories created during their engagement. Peaks AI retains underlying proprietary agent orchestrators, base templates, and inference acceleration architectures.</p>
+
+      <h2>6. Termination & Limitation of Liability</h2>
+      <p>Either party may terminate subscription services with 30 days written notice. Peaks AI shall not be liable for indirect, incidental, or consequential damages resulting from telecommunications network carrier outages or third-party telephony provider downtime.</p>
+
+      <h2>7. Governing Law & Dispute Resolution</h2>
+      <p>These terms are governed by the laws of the United States. In the event of any controversy, the parties agree to resolve disputes through good-faith negotiation followed by binding arbitration.</p>
+    </div>
+
+    <footer>
+      &copy; 2026 Peaks AI. All rights reserved. &bull;
+      <a href="terms.html">Terms of Service</a> &bull;
+      <a href="privacy.html">Privacy Policy</a> &bull;
+      <a href="index.html">Platform Home</a>
+    </footer>
+  </div>
+</body>
+</html>
